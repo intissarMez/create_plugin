@@ -1,0 +1,21 @@
+{
+	"extension": {
+		"name": "$(solutionName)",
+		"version": "1.0.0",
+		"description": "your description goes here",
+		"icon": "icon.png",
+		"senders": [
+			{
+				"location": "studioToolbar",
+				"icon": "icon.png",
+				"actionName": "$(solutionName)Action"
+			}
+		],
+		"actions": [
+			{
+				"name": "$(solutionName)Action",
+				"title": "$(solutionName)"}
+		],
+		"lifetime": "application_lifetime"
+	}
+}
